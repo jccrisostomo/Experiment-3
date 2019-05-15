@@ -10,7 +10,7 @@ int main()
 {
     int temperature[PROVINCE][WEEK];
 
-    cout << "Enter all temperature for a week of first city and then second city. \n";
+    cout << "Enter all temperature for a week of Province A, B and C";
 
     for (int i = 0; i < PROVINCE; ++i)
     {
@@ -21,7 +21,7 @@ int main()
         }
     }
 
-    cout << "\n\nDisplaying Values:\n";
+    cout << "Displaying Values";
     
     for (int i = 0; i < PROVINCE; ++i)
     {
